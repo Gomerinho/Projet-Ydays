@@ -1,0 +1,84 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+}
+
+header {
+  width: 1440px;
+  height: 400px;
+  background-image: url('https://ressources.blogdumoderateur.com/2016/04/dev-web.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+}
+.home a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  position: fixed;
+  top: 6px;
+  left: 13px;
+  z-index: 2;
+}
+.title h1, h2 {
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.title h1{
+  font-size: 36px;
+  position: absolute;
+  left: 500px;
+  top: 148px;
+  font-weight: bold;
+}
+
+.title h2 {
+  color: #4986E8;
+  font-size: 24px;
+  position: absolute;
+  top: 200px;
+  left: 620px;
+  margin: 0;
+}
+
+.back-profil_img {
+  position: absolute;
+  width: 197px;
+  height: 190px;
+  left: 638px;
+  top: 301px;
+  border-radius: 95px;
+  background-color: #EFEFEF;
+  margin-right: 0
+}
+
+.profil_img {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  left: 659px;
+  top: 318px;
+  width: 155px;
+  height: 155px;
+}
+
+.profil_img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 80px;
+}
+
+.bg-main {
+  background-color: #EFEFEF;
+  position: absolute;
+  z-index: 0;
+  width: 1440px;
+  height: 437px;
+  top: 392px;
+}
+
+.carousel .slide{
+  position: absolute;
+  top :1000px;
+}

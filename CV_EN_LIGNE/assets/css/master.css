@@ -5,7 +5,8 @@ body {
 header {
   width: 1440px;
   height: 400px;
-  background-image: url('img/mgv.jpg');
+  background-image: url('../img/bg.jpg');
+  filter : blur(2px);
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
@@ -87,7 +88,7 @@ header {
 .skills {
   width: 1440px;
   height: 500px;
-  background-image: url('');
+  background-image: url('../img/bg2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   top: 926px;
@@ -315,6 +316,14 @@ header {
 }
 .main-title{
   position: relative;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.main-title {
+  position: relative;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .main-title .under-bar{
@@ -350,4 +359,24 @@ header {
   color: white;
   margin-top: 2%;
   margin-left: 35%;
+}
+
+.copyright{
+  width: 100%;
+  position: absolute;
+  top: 1783px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  font-weight: lighter;
+}
+
+.icon{
+  display: flex;
+  margin-right: 42%;
+}
+
+.icon i{
+  margin-left: 10px;
+  font-size: 26px;
 }

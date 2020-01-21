@@ -5,12 +5,12 @@ body {
 header {
   width: 1440px;
   height: 400px;
-  background-image: url('https://ressources.blogdumoderateur.com/2016/04/dev-web.jpg');
+  background-image: url('img/mgv.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
 }
-.home a{
+.home a {
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -18,14 +18,15 @@ header {
   position: fixed;
   top: 6px;
   left: 13px;
-  z-index: 2;
+  z-index: 1000;
 }
+
 .title h1, h2 {
   text-transform: uppercase;
   color: #FFFFFF;
 }
 
-.title h1{
+.title h1 {
   font-size: 36px;
   position: absolute;
   left: 500px;
@@ -74,17 +75,279 @@ header {
   position: absolute;
   z-index: 0;
   width: 1440px;
-  height: 437px;
+  height: 534px;
   top: 392px;
 }
 
-.carousel .slide{
+.carousel .slide {
   position: absolute;
-  top :1000px;
+  top: 1000px;
 }
 
-.skills{
-  top: 1000px;
+.skills {
+  width: 1440px;
+  height: 500px;
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 926px;
   position: absolute;
-  z-index: 99
+  z-index: 3;
+}
+
+.skills h3 {
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 34px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.skills h4 {
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-left: 70px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.skills img {
+  width: 32px;
+  height: 32px;
+  margin: 5px 25px 5px 0px;
+}
+
+.contacts {
+  width: 1440px;
+  height: 300px;
+  top: 1426px;
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts h3 {
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 34px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.contact{
+  background-color: #94A6CC;
+  width: 720px;
+  height: 350px;
+}
+
+.info{
+  background-color: #4A86E8;
+  width: 720px;
+  height: 350px;
+}
+.info h5{
+  font-size: 26px;
+}
+
+.info p{
+  font-size: 18px;
+}
+
+.tel{
+  color: white;
+  display: flex;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.tel p{
+  margin-left: 50px;
+}
+.mail{
+  color: white;
+  display: flex;
+  margin-left: 100px;
+}
+
+.mail p{
+  margin-left: 90px;
+}
+
+.adresse{
+  color: white;
+  display: flex;
+  margin-left: 100px;
+}
+
+.adresse p{
+  margin-left: 70px;
+}
+
+.container {
+  display: inline-flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.spanish {
+  position: relative;
+}
+.french {
+  position: relative;
+}
+.portuguese {
+  position: relative;
+}
+.english {
+  position: relative;
+}
+
+.css_3 {
+  position: relative;
+}
+
+.html_5 {
+  position: relative;
+}
+
+.javascript {
+  position: relative;
+}
+
+.php {
+  position: relative;
+}
+.skill-bar{
+  height: 5px;
+  width: 220px;
+  position: absolute;
+  background-color: grey;
+  border-radius: 5px;
+  top: 20px;
+  left: 50px;
+}
+
+
+.skill-bar-french{
+  background-color: darkred;
+  height: 5px;
+  width: 220px;
+  position: absolute;
+  border-radius: 5px;
+  top: 20px;
+  left: 50px;
+}
+
+.skill-bar-english{
+  background-color: darkred;
+  height: 5px;
+  width: 180px;
+  position: absolute;
+  border-radius: 5px;
+  top: 20px;
+  left: 50px;
+}
+
+.skill-bar-spanish{
+  background-color: darkred;
+  height: 5px;
+  width: 158px;
+  position: absolute;
+  border-radius: 5px;
+  top: 20px;
+  left: 50px;
+}
+
+.skill-bar-portuguese{
+  background-color: darkred;
+  height: 5px;
+  width: 133px;
+  position: absolute;
+  border-radius: 5px;
+  top: 20px;
+  left: 50px;
+}
+
+.skill-bar-html{
+  background-color: darkred;
+  height: 5px;
+  width: 117px;
+  position: absolute;
+  border-radius: 5px;
+  top: 20px;
+  left: 50px;
+}
+
+.skill-bar-css{
+  background-color: darkred;
+  height: 5px;
+  width: 83px;
+  position: absolute;
+  border-radius: 5px;
+  top: 20px;
+  left: 50px;
+}
+
+.skill-bar-js{
+  background-color: darkred;
+  height: 5px;
+  width: 11px;
+  position: absolute;
+  border-radius: 5px;
+  top: 20px;
+  left: 50px;
+}
+
+.skill-bar-php{
+  background-color: darkred;
+  height: 5px;
+  width: 11px;
+  position: absolute;
+  border-radius: 5px;
+  top: 20px;
+  left: 50px;
+}
+.main-title{
+  position: relative;
+}
+
+.main-title .under-bar{
+  background-color: darkred;
+  height: 10px;
+  width: 40px;
+  position: absolute;
+  left: 50px;
+  top: 45px;
+}
+
+.formulaire{
+  margin-top: 5%;
+}
+
+.formulaire input {
+  width: 350px;
+  height: 30px;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+
+.formulaire textarea {
+  width: 350px;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+
+.formulaire button{
+  padding: 5px 5px;
+  border: 0px solid #000;
+  background-color: #4A86E8;
+  color: white;
+  margin-top: 2%;
+  margin-left: 35%;
 }

@@ -82,3 +82,9 @@ header {
   position: absolute;
   top :1000px;
 }
+
+.skills{
+  top: 1000px;
+  position: absolute;
+  z-index: 99
+}

@@ -51,7 +51,7 @@ header {
   left: 638px;
   top: 301px;
   border-radius: 95px;
-  background-color: #EFEFEF;
+  background-color: lightgrey;
   margin-right: 0
 }
 
@@ -72,7 +72,7 @@ header {
 }
 
 .bg-main {
-  background-color: #EFEFEF;
+  background-color: lightgray;
   position: absolute;
   z-index: 0;
   width: 1440px;
@@ -379,4 +379,71 @@ header {
 .icon i{
   margin-left: 10px;
   font-size: 26px;
+}
+
+.icon a{
+  text-decoration: none;
+  color: black;
+}
+
+.carousel-inner{
+  position: relative;
+}
+.carousel-content .main-title{
+  margin-left: 25px;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.carousel-content .under-bar{
+  left: 0px;
+}
+.carousel-item{
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 90px;
+}
+
+.carousel-content h3{
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.carousel-paragraphe{
+  margin-top: 90px;
+  justify-content: space-between;
+  display: inline-flex;
+  margin-right: 90px;
+}
+
+.carousel-content .main-title{
+  display: flex;
+}
+
+.carousel-content .carousel-icon {
+  margin-left: 50px;
+  font-size: 36px;
+}
+
+.carousel-icon a{
+  text-decoration: none;
+  color: blue;
+}
+
+.carousel-icon i{
+  color: black;
+}
+
+.carousel-image{
+  display: flex;
+  justify-content: space-around;
+}
+
+.carousel-image img{
+  margin-top: 100px;
+  margin-left: 0px;
+  width: 100px;
+  height: 100px;
 }
